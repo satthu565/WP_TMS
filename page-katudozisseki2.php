@@ -257,9 +257,9 @@
 
     <section id="monitoring-service">
         <div class="partner-img">
-            <img class="main-partner" src="./images/partner-bg-img.png" alt="">
+            <img class="main-partner" src="<?php echo get_template_directory_uri(); ?>/images/partner-bg-img.png" alt="">
             <a href="#" class="inner-partner">
-                <img class="img-inner" src="./images/partner-button.svg" alt="">
+                <img class="img-inner" src="<?php echo get_template_directory_uri(); ?>/images/partner-button.svg" alt="">
                 <p class="text-inner">トラックモニタリングサービスとは</p>
                 <div class="shape-arrow"></div>
             </a>
